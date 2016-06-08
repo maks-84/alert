@@ -48,7 +48,9 @@
 
     [self presentViewController:alertView animated:YES completion:nil];
     
-    
+    dispatch_introspection_hook_queue_item_dequeue(dispatch_data_create_subrange(c
+                                                                                 s
+                                                                                 dispatch_data_create_subrange(s, <#size_t offset#>, <#size_t length#>), <#size_t offset#>, <#size_t length#>), <#dispatch_object_t item#>)
 }
 
 - (void)didReceiveMemoryWarning {
